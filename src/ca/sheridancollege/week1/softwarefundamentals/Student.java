@@ -13,7 +13,6 @@ public class Student {
     
     private String name;
     private int id;
-    private     String program;
     
 
     /**
@@ -32,18 +31,6 @@ public class Student {
      */
     public void setName(String name) {
         this.name = name;
-    }
-     public String getProgram() {
-        return program;
-    }
-
-    /**
-     * Set the value of name
-     *
-     * @param name new value of name
-     */
-    public void setProgram(String program) {
-        this.name = program;
     }
     
     
