@@ -13,6 +13,7 @@ public class Student {
     
     private String name;
     private int id;
+    private double abhi;
     
 
     /**
@@ -20,10 +21,18 @@ public class Student {
      *
      * @return the value of name
      */
+    
+    public double getAbhi(){
+        return abhi;
+    }
+    
+    
     public String getName() {
         return name;
     }
-
+      public void setAbhi(double abhi){
+          this.abhi  = abhi;
+      } 
     /**
      * Set the value of name
      *
@@ -47,6 +56,8 @@ public class Student {
         this.id = id;
     }
 
+    
+    
 }
  
    
