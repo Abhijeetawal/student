@@ -18,6 +18,15 @@ public class Student {
     private String name;
     private int id;
     private double abhi;
+    private String status;
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
+    }
     
 
     /**
