@@ -12,7 +12,7 @@ package ca.sheridancollege.week1.softwarefundamentals;
 // abhijeet awal
 
 //  24 jan 2020   
-// friday
+
 public class Student {
     
     private String name;
